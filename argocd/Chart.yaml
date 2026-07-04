@@ -1,9 +1,10 @@
+# Chart.yaml
 apiVersion: v2
 name: argocd
-description: ArgoCD Helm Chart
+description: Argo CD Helm Chart
 type: application
-version: 9.3.7
+version: 10.1.1
 dependencies:
 - name: argo-cd
-  version: 9.3.7
+  version: 10.1.1
   repository: https://argoproj.github.io/argo-helm
